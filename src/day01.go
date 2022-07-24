@@ -27,7 +27,18 @@ func main() {
 	var f float64
 	var b bool
 	var s string
+
+	var m [10]int
+	var n []int
 	fmt.Printf("%v %v %v %q\n", i, f, b, s)
+
+	m[0] = 100
+	m = [10]int{1, 4, 5, 23, 5, 6, 6, 7, 4, 2}
+	fmt.Println(m)
+	n = append(n, 0)
+	n = append(n, 123, 45)
+	n = append(n, 334)
+	fmt.Println(n)
 
 	intVal := 10
 	fmt.Println(intVal)
