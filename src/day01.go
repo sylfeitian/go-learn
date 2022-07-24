@@ -15,7 +15,7 @@ type Books struct {
 	book_id int
 }
 
-func main() {
+func day01() {
 	var socketcode = 123
 	var enddate = "2020-12-31"
 	fmt.Println(enddate)
